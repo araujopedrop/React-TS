@@ -73,5 +73,5 @@ myNumbers.forEach( (value) => {
 } );
 
 
-// Puedo simplicar aun mas, sabiendo que solo imprimo lo que me llega por argumento
+// Puedo simplicar aun mas, sabiendo que solo imprimo lo que me llega por argumento. Mando la funcion por referencia
 myNumbers.forEach(console.log);
