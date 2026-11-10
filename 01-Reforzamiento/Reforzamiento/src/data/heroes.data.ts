@@ -7,20 +7,20 @@ enum Owner {
     MARVEL, // 1
 }
 */
-enum Owner {
+export enum Owner {
     DC = 'DC', //0
     Marvel = 'Marvel', // 1
 }
 
 
-interface Hero{
+export interface Hero{
     id:    number;
     name:  string;
     owner: Owner;
 }
 
 
-const heroes:Hero[] = [
+export const heroes:Hero[] = [
   {
     id: 1,
     name: 'Batman',
