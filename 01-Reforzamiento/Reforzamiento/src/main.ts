@@ -6,9 +6,11 @@ import './style.css'
 //import './bases/05-functions'
 //import './bases/06-obj-destructuring'
 //import './bases/07-array-destructuring'
-import './bases/08-imp-exp'
-import { getHeroByOwner } from './bases/08-imp-exp'
-import { Owner } from './data/heroes.data'
+//import './bases/08-imp-exp'
+//import { getHeroByOwner } from './bases/08-imp-exp'
+//import { Owner } from './data/heroes.data'
+import './bases/09-promises'
+
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <div>
@@ -16,6 +18,6 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 </div>
 `
 
-console.log(getHeroByOwner(Owner.DC))
+//console.log(getHeroByOwner(Owner.DC))
 
 
